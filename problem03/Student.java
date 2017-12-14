@@ -15,7 +15,7 @@ class Student {
 	this.major = major;
 	this.grade = grade;
 	}
-
+}
 	String Student(int where) {
 		if(where.equals(1706070)) {
 			return "1706070.";
