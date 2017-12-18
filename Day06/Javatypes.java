@@ -85,7 +85,7 @@ public class JavaTypes {
 		int intVal01 = (int)floatVal01;   // float--> int 형변환.소수점은 버림
 		System.out.println(intVal01);
 	
-		int charNum = 'A';    //char  --> int 형변환
+		int charNum = 'A';    //char  --> int 형변환, 'A'는  int 65로 랩핑(지정)되어있음
 		System.out.println(charNum);
 	}
 }
