@@ -1,0 +1,42 @@
+public class Problem03 {
+
+	public static void main(String[] args) {
+		//'H'를 출력
+		for (char i = 65; i < 91; i++){
+			if (i == 'H') {
+				System.out.println(i); 
+				break;// 조건 수행시후 종료하라는 조건문
+			}
+
+		}
+		//'E'를 출력
+		for (char i = 65; i < 91; i++){
+			if (i == 'E') {
+				System.out.println(i); 
+				break;
+
+			}
+
+		}
+		//'LL'를 출력
+		for (char i = 65; i < 91; i++){
+			if (i == 'L') {
+				System.out.println(i); 
+				System.out.println(i);
+				break;
+			}
+
+		}
+
+		//'O'를 출력
+		for (char i = 65; i < 91; i++){
+			if (i == 'O') {
+				System.out.println(i); 
+				break;
+
+			}
+
+		}
+	}
+
+}

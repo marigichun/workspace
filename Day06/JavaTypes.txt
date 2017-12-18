@@ -1,0 +1,29 @@
+public class JavaTypes {
+
+	public static boid main(String[] args) {
+
+		// int는 정수형만 들어감
+		//분류              자료형            상수
+		//정수형           int                  십진수, 8진수,16진수
+		//문자열           String             큰 따옴표로 표기
+		int intValue = 0;
+		int num01 =10;	
+		int num02 = 010;	//8진수 8을 표기 oto로 표기		
+		int num03 = 0*10;	//16진수 16을 표기
+		System.out.println(num01);
+		System.out.println(num02);
+		System.out.println(num03);
+		
+		
+		//문자형 타입
+		String stringValue = "안녕하세요.";
+		String bye = "안녕히 계세요.";
+		System.out.println(stringValue);
+		System.out.println(bye);
+	
+		
+
+	}
+}
+
+
